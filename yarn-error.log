@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/samuelstalschus/.nvm/versions/node/v14.17.0/bin/node /Users/samuelstalschus/.nvm/versions/node/v14.17.0/bin/yarn
+
+PATH: 
+  /Users/samuelstalschus/.serverless/bin:/Users/samuelstalschus/.nvm/versions/node/v14.17.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/samuelstalschus/.serverless/bin:/Users/samuelstalschus/.nvm/versions/node/v14.17.0/bin:/Users/samuelstalschus/.zinit/polaris/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/samuelstalschus/Desktop/Projects/Github/ignitecertificate/package.json: Unexpected token } in JSON at position 733
+      at JSON.parse (<anonymous>)
+      at /Users/samuelstalschus/.nvm/versions/node/v14.17.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/samuelstalschus/.nvm/versions/node/v14.17.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/samuelstalschus/.nvm/versions/node/v14.17.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "ignitecertificate",
+    "version": "1.0.0",
+    "description": "Serverless aws-nodejs-typescript template",
+    "scripts": {},
+    "dependencies": {
+      "@middy/core": "^1.5.2",
+      "@middy/http-json-body-parser": "^1.5.2",
+      "source-map-support": "^0.5.19"
+    },
+    "devDependencies": {
+      "@serverless/typescript": "^2.23.0",
+      "@types/aws-lambda": "^8.10.71",
+      "@types/node": "^14.14.25",
+      "json-schema-to-ts": "^1.5.0",
+      "serverless": "^2.23.0",
+      "serverless-webpack": "^5.3.5",
+      "ts-loader": "^8.0.15",
+      "ts-node": "^9.1.1",
+      "tsconfig-paths": "^3.9.0",
+      "tsconfig-paths-webpack-plugin": "^3.3.0",
+      "typescript": "^4.1.3",
+      "webpack": "^5.20.2",
+      "webpack-node-externals": "^2.5.2"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
