@@ -85,6 +85,6 @@ status 400
 ## :memo: Certificate
 
 <p align="center">
-  <img alt="img" src="certificate.pdf" width="100%">
+  <iframe alt="pdf" src="certificate.pdf" width="100%"></iframe>
 
 </p>
