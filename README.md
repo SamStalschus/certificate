@@ -88,3 +88,9 @@ status 400
   <iframe alt="pdf" src="certificate.pdf" width="100%"></iframe>
 
 </p>
+
+<object data="certificate.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="certificate.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="certificate.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
